@@ -1,6 +1,6 @@
 # LONG ANSWER QUESTIONS:
 
-1) Why doesn't sizeof() represent of the size of an array?
+1. Why doesn't sizeof() represent of the size of an array?
 
 	- sizeof operator is basically used when actual size of the object must be known. 
 
@@ -27,7 +27,7 @@
 	~~~
 
 
-2) Why does each data type of int require different amounts of memory in C?
+2. Why does each data type of int require different amounts of memory in C?
 
 	- due to when c was made because back then, the size of the bit in the computer was inconsistent.
 
