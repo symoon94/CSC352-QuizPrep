@@ -1,4 +1,4 @@
-LONG ANSWER:
+# LONG ANSWER:
 
 1) Why doesn't sizeof() represent of the size of an array?
 
@@ -10,6 +10,8 @@ LONG ANSWER:
 
 	- So, if you want to find the length of an array in C, the method would be like below:
 
+
+	~~~
 	int main(void) {
 		
 		int a[] = {1,2,3,4};
@@ -22,6 +24,7 @@ LONG ANSWER:
 		return 0;
 
 	}
+	~~~
 
 
 2) Why does each data type of int require different amounts of memory in C?
@@ -31,5 +34,5 @@ LONG ANSWER:
 	- they started it off with 16bit CPU and CPU became 32, and it became 64. So originally in 16bit CPU short was 16, int was 16, and long was 32 
 
 	- Because the CPU handles a bit differently, 64bit CPU's short became 16, int 32, and long 64. 
-	
+
 	- running 64 bit on 32 but makes it run slower because 32 bit have to add to become 64 bit.
