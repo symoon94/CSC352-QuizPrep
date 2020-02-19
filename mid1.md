@@ -1,4 +1,4 @@
-# LONG ANSWER:
+# LONG ANSWER QUESTIONS:
 
 1) Why doesn't sizeof() represent of the size of an array?
 
