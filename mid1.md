@@ -38,13 +38,10 @@
 	- running 64 bit on 32 but makes it run slower because 32 bit have to add to become 64 bit.
 
 
-3. Why do we write exit(0)?
+3. << n = * 2^n then don't we need to use multiplication? No! Why?
 
 
-4. << n = * 2^n then don't we need to use multiplication? No! Why?
-
-
-5. What happens when you take unsigned int as -1?
+4. What happens when you take unsigned int as -1?
 
 
 please answer them and pull request
