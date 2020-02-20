@@ -38,17 +38,13 @@
 	- running 64 bit on 32 but makes it run slower because 32 bit have to add to become 64 bit.
 
 
-3. Why do we return int in main?
+3. Why do we write exit(0)?
 
 
-4. Why do we write exit(0)?
+4. << n = * 2^n then don't we need to use multiplication? No! Why?
 
 
-5. << n = * 2^n then don't we need to use multiplication? No! Why?
-
-
-6. What happens when you take unsigned int as -1?
-
+5. What happens when you take unsigned int as -1?
 
 
 please answer them and pull request
