@@ -68,5 +68,4 @@
 6. Why are most uses of goto considered harmful?
 	- Basically, "goto" is used to directly go to (jump to) the specific code so it would be useful to escape multiple loops. However, it can cause the Spaghetti code and make it hard to be read. So, we may want to avoid goto statements in complex programs.
 
-7. 
 
