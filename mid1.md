@@ -4,7 +4,7 @@
 
 	- sizeof operator is basically used when actual size of the object must be known. 
 
-	- It returns the size, in bytes, of the object representation of "type".
+	- It returns the size, in bytes, of the object representation of __type__.
 
 	- Depending on the computer architecture, a byte may consist of 8 or more bits, the exact number provided as CHAR_BIT.
 
@@ -61,4 +61,12 @@
 
 	return 0;
 	~~~
+
+5. What is the difference between the scan codes that have an uppercase and lowercase version such as %x and %X?
+	- Basically, they output a lowercase if the conversion specifier is lowercase and output an uppercase if the conversion specifier is uppercase, when the output contains the alphabet.
+
+6. Why are most uses of goto considered harmful?
+	- Basically, "goto" is used to directly go to (jump to) the specific code so it would be useful to escape multiple loops. However, it can cause the Spaghetti code and make it hard to be read. So, we may want to avoid goto statements in complex programs.
+
+7. 
 
