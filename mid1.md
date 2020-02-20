@@ -46,9 +46,19 @@
 4. What happens when you take unsigned int as -1?
 	- negative value is treated as positive value in unsigned integer, but you can assign signed integer to unsigned integer.
 
-	// Assume integer size is 2 bytes (16 bits)
-	int x = -1; // 10000000 00000001
-	//1st bit is for sign and 1 = -1
-	unsigned int y = -1; // 10000000 00000001 (value => 2^16 + 1)
+	~~~
+	unsigned int a;
 
+	a = -1;
+	printf("%u", a); // 4294967295
+
+	int i;
+	for (i = 0; i < 32; i++){
+		printf ("%u", a&0x80000000 ? 1:0);
+		a = a<<1;
+	}
+	// 11111111111111111111111111111111
+
+	return 0;
+	~~~
 
